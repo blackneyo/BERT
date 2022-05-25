@@ -1,18 +1,16 @@
 # BERT
 영어 한국어 버트
 
-# 1. 
+# 1. 필요 라이브러리 설치
 pip install transformers
 
-
-# 2.
 import tensorflow as tf
 
 from transformers import TFBertForNextSentencePrediction
 
 from transformers import AutoTokenizer
 
-# 3.
+# 2. 학습된 모델 불러오기
 
 model = TFBertForMaskedLM.from_pretrained('klue/bert-base', from_pt=True)
 
