@@ -27,3 +27,5 @@ pip = FillMaskPipeline(model=model, tokenizer=tokenizer)
 
 # 5.
 pip('축구는 정말 재미있는 [MASK]다.')
+
+참고 문헌 : https://wikidocs.net/22592
